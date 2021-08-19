@@ -1,7 +1,7 @@
 ### Hi there, I'm Bruno Santos
 
-- I'm mobile developer at SHX.
-- I use React Native to build mobile apps.
+- I'm senior frontend engineer at Iteris.
+- I use React to build web apps.
 - I'm currently learning how to build microservices with express, mongodb typescript and nats streaming, i'm also learning how to use kubernets.
 - My interests are, improve english speaking an listening, learn how to use animations in RN, unit tests and e2e tests with Detox.
 - With Backend i've experiences in Java, Spring Boot, Spring Security, Hibernates, MyBatis and others.
