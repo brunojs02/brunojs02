@@ -22,7 +22,7 @@ export function Hero({ now }: { now: Date }) {
         </div>
         <div>
           <span style={{ color: 'var(--tm-warn)' }}>site</span><span style={{ color: 'var(--tm-muted)' }}>:</span>{' '}
-          <a className="tm-link" href="https://brunojs02.dev">brunojs02.dev</a>
+          <a className="tm-link" href="https://brunojs02.dev" target="_blank" rel="noopener noreferrer">brunojs02.dev</a>
         </div>
       </div>
 

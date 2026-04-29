@@ -1,6 +1,6 @@
-type SectionId = 'about' | 'work' | 'skills' | 'edu' | 'contact';
+type SectionId = 'about' | 'work' | 'skills' | 'edu' | 'interns' | 'contact';
 
-const items: SectionId[] = ['about', 'work', 'skills', 'edu', 'contact'];
+const items: SectionId[] = ['about', 'work', 'skills', 'edu', 'interns', 'contact'];
 
 export function NavBar({ onNavigate }: { onNavigate: (id: SectionId) => void }) {
   return (

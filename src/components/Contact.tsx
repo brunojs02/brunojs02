@@ -20,7 +20,7 @@ export function Contact() {
               {'  '}
               <span style={{ color: 'var(--tm-warn)' }}>{`"${c.key}"`}</span>
               <span style={{ color: 'var(--tm-muted)' }}>:</span>{' '}
-              <a className="tm-link" href={c.href}>{c.label}</a>
+              <a className="tm-link" href={c.href} target="_blank" rel="noopener noreferrer">{c.label}</a>
               {i < contactEntries.length - 1 ? ',' : ''}
               {'\n'}
             </React.Fragment>

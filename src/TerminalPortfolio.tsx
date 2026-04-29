@@ -6,11 +6,12 @@ import { About } from './components/About';
 import { Work } from './components/Work';
 import { Skills } from './components/Skills';
 import { Education } from './components/Education';
+import { Interns } from './components/Interns';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { downloadResumePdf } from './lib/downloadResumePdf';
 
-type SectionId = 'about' | 'work' | 'skills' | 'edu' | 'contact';
+type SectionId = 'about' | 'work' | 'skills' | 'edu' | 'interns' | 'contact';
 
 export default function TerminalPortfolio() {
   const [now, setNow] = useState<Date>(() => new Date());
@@ -80,6 +81,7 @@ export default function TerminalPortfolio() {
         <Work />
         <Skills />
         <Education />
+        <Interns />
         <Contact />
         <Footer />
       </div>
